@@ -1,0 +1,23 @@
+.checkoutProduct{
+    display: flex;
+}
+    .checkoutProduct__image{
+        object-fit: contain;
+        width: 180px;
+        height: 180px;
+    }
+    .checkoutProduct__rating{
+        display: flex ;
+    }
+ .checkoutProduct__info{
+     padding: 20px;
+     
+    }
+ .checkoutProduct__info > button{
+    background-color: orange;
+    border-color: peru;
+    border: 1px solid;
+    margin-top: 5px;
+    padding: 5px;
+ }
+
